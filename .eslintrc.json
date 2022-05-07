@@ -26,6 +26,7 @@
     ],
     "no-unused-expressions": "off",
     "react/no-unstable-nested-components": "off",
+    "react/style-prop-object": "off",
     "import-helpers/order-imports": [
       "warn",
       {
