@@ -1818,10 +1818,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react-native@~0.66.13":
-  version "0.66.18"
-  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.66.18.tgz#924fdbf413047e7ac2c18aead60142345814dede"
-  integrity sha512-a+xIlll1Wo4rhBPdoecH6VfvMgm8dcMScJgO5GSt+BB+7rMX/UOTWmfAV7BXx/x4okf2Tu6nSbEygnNYgNtp2A==
+"@types/react-native@~0.67.6":
+  version "0.67.6"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.67.6.tgz#9a7de5feba6065aec9f44f9a1e8f6e55ee5d015c"
+  integrity sha512-NM6atxrefIXMLE/PyQ1bIQjQ/lWLdls3uVxItzKvNUUVZlGqgn/uGN4MarM9quSf90uSqJYPIAeAgTtBTUjhgg==
   dependencies:
     "@types/react" "*"
 
@@ -4245,9 +4245,9 @@ globals@^11.1.0:
   integrity sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==
 
 globals@^13.6.0, globals@^13.9.0:
-  version "13.13.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.13.0.tgz#ac32261060d8070e2719dd6998406e27d2b5727b"
-  integrity sha512-EQ7Q18AJlPwp3vUDL4mKA0KXrXyNIQyWon6T6XQiBQF0XHvRsiCSrWmmeATpUzdJN2HhWZU6Pdl0a9zdep5p6A==
+  version "13.14.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-13.14.0.tgz#daf3ff9b4336527cf56e98330b6f64bea9aff9df"
+  integrity sha512-ERO68sOYwm5UuLvSJTY7w7NP2c8S4UcXs3X1GBX8cwOr+ShOcDBbCY5mH4zxz0jsYCdJ8ve8Mv9n2YGJMB1aeg==
   dependencies:
     type-fest "^0.20.2"
 
