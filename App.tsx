@@ -1,3 +1,5 @@
+/* eslint-disable camelcase */
+import 'react-native-gesture-handler';
 import { View } from 'react-native';
 
 import {
@@ -9,9 +11,9 @@ import {
 import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 
-import { Widget } from '@/components/Widget';
+import Widget from '@/components/Widget';
 
-import { theme } from '@/theme';
+import { theme } from '@/global/theme';
 
 SplashScreen.preventAutoHideAsync().catch(console.warn);
 
@@ -32,8 +34,9 @@ export default function App() {
         backgroundColor: theme.colors.background,
       }}
     >
-      <Widget />
       <StatusBar backgroundColor="transparent" style="light" translucent />
+
+      <Widget />
     </View>
   );
 }
