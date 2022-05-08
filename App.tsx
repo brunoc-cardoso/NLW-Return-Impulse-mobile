@@ -6,12 +6,14 @@ import {
   Inter_500Medium,
 } from '@expo-google-fonts/inter';
 
-import AppLoading from 'expo-app-loading';
+import * as SplashScreen from 'expo-splash-screen';
 import { StatusBar } from 'expo-status-bar';
 
 import { Widget } from '@/components/Widget';
 
 import { theme } from '@/theme';
+
+SplashScreen.preventAutoHideAsync().catch(console.warn);
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -20,7 +22,7 @@ export default function App() {
   });
 
   if (!fontsLoaded) {
-    return <AppLoading />;
+    SplashScreen.hideAsync();
   }
 
   return (
