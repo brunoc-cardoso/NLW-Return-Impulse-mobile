@@ -35,7 +35,7 @@
           "/^react/",
           "/^@react|^@expo/",
           "module",
-          "/^@/utils/",
+          "/^@/utils|^@/libs/",
           "/^@/components|^@/screens/",
           ["parent", "sibling", "index"],
           "/^@/global/"
